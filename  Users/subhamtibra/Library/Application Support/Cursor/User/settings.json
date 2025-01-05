@@ -190,5 +190,6 @@
                 }
             },
         ]
-    }
+    },
+    "a-file-icon-vscode.opacity": 1,
 }
