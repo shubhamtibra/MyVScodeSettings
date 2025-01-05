@@ -1,0 +1,220 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "debug.javascript.breakOnConditionalError": true,
+    "debug.console.acceptSuggestionOnEnter": "on",
+    "debug.focusWindowOnBreak": true,
+    "debug.console.historySuggestions": true,
+    "debug.inlineValues": "on",
+    "debug.enableStatusBarColor": true,
+    "debug.javascript.codelens.npmScripts": "top",
+    "debug.showVariableTypes": true,
+    "cody.autocomplete.enabled": false,
+    "[javascript]": {
+        "javascript.preferences.importModuleSpecifierEnding": "minimal",
+        "javascript.preferences.quoteStyle": "single",
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "explicit"
+        }
+    },
+    "javascript.preferGoToSourceDefinition": true,
+    "eslint.ignoreUntitled": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.run": "onSave",
+    "eslint.timeBudget.onFixes": {
+        "warn": 1000,
+        "error": 2000
+    },
+    "eslint.timeBudget.onValidation": {
+        "warn": 1500,
+        "error": 3000
+    },
+    "cursor.aipreview.enabled": true,
+    "workbench.activityBar.orientation": "vertical",
+    "editor.suggest.localityBonus": true,
+    "editor.accessibilitySupport": "off",
+    "typescript.tsserver.maxTsServerMemory": 8096,
+    "typescript.format.semicolons": "remove",
+    "editor.formatOnSave": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "eslint.options": {
+        "cache": true,
+        "cacheLocation": ".eslintCache"
+    },
+    "sync.autoUpload": true,
+    "sync.gist": "33692bb0e488cc50b072ca73547f3d43",
+    "git.allowNoVerifyCommit": true,
+    "eslint.probe": [
+        "javascript",
+        "javascriptreact"
+    ],
+    "typescript.tsserver.nodePath": "/Users/subhamtibra/.nvm/versions/node/v18.20.2/bin/node",
+    "security.workspace.trust.enabled": true,
+    "cody.commandCodeLenses": true,
+    "cody.telemetry.level": "off",
+    "cody.autocomplete.disableInsideComments": true,
+    "cursor.terminal.usePreviewBox": true,
+    "codeviz.analyticsEnabled": false,
+    "sync.quietSync": true,
+    "sync.removeExtensions": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "eslint.format.enable": true,
+    "typescript.tsserver.web.typeAcquisition.enabled": false,
+    "typescript.tsserver.experimental.useVsCodeWatcher": false,
+    "typescript.tsserver.web.projectWideIntellisense.enabled": false,
+    "editor.semanticHighlighting.enabled": false,
+    "files.participants.timeout": 6000,
+    "editor.screenReaderAnnounceInlineSuggestion": false,
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "editor.largeFileOptimizations": true,
+    "terminal.integrated.env.osx": {
+        "Q_NEW_SESSION": "1"
+    },
+    "workbench.settings.openDefaultKeybindings": true,
+    "terminal.integrated.macOptionIsMeta": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "editor.fontFamily": "'JetBrains Mono Light', 'Fira Code', MenloForPowerLine-Regular, monospace",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "MesloLGS NF, monospace",
+    "javascript.format.semicolons": "remove",
+    "typescript.workspaceSymbols.scope": "currentProject",
+    "oneDarkPro.vivid": true,
+    "sync.autoDownload": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.gotoLocation.alternativeReferenceCommand": "editor.action.referenceSearch.trigger",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleReferences": "gotoAndPeek",
+    "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
+    "cody.commandHints.enabled": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact"
+    ],
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.autoStash": true,
+    "git.defaultBranchName": "master",
+    "git.timeline.showUncommitted": true,
+    "material-icon-theme.activeIconPack": "react_redux",
+    "tailwindCSS.files.exclude": [
+        "**/.git/**",
+        "**/node_modules/**",
+        "**/.hg/**",
+        "**/.svn/**",
+        "**/src/server/**"
+    ],
+    "javascript.preferences.quoteStyle": "single",
+    "files.watcherExclude": {
+        "__generated__/**": true,
+        "_templates/**": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/.hg/store/**": true,
+        "./.husky/**": true,
+        "./.idea/**": true,
+        "**/.next/**": true,
+        "./.platform/**": true,
+        "./.python-version/**": true,
+        "./.repl-history/**": true,
+        "./.sentryclirc/**": true,
+        "./.storybook/**": true,
+        "blob-report/**": true,
+        "cdk/**": true,
+        "cypress/**": true,
+        "db-backups/**/*": true,
+        "**/dist/**": true,
+        "e2e/**/*": true,
+        "generators/**": true,
+        "init_scripts/**": true,
+        "my_rules/**": true,
+        "**/node_modules/**": true,
+        "**/nodemon/**": true,
+        "**/packages/**": true,
+        "playground/**": true,
+        "playwright/**": true,
+        "public/**": true,
+        "scripts/**": true,
+        "src/antd/**": true,
+        "src/browser/icons/**": true,
+        "src/browser/v2/**": true,
+        "src/stories/**": true,
+        "static/**": true,
+        "storybook-static/**": true,
+        "test-results/**": true,
+        "tests/**": true,
+        "tsBuildInfo/**": true,
+        "dash/**": true
+    },
+    "gitlens.views.scm.grouped.views": {
+        "commits": false,
+        "branches": false,
+        "remotes": true,
+        "stashes": false,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "repositories": true,
+        "searchAndCompare": true,
+        "launchpad": true
+    },
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "gitlens.virtualRepositories.enabled": false,
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers",
+        "blocks"
+    ],
+    "gitlens.outputLevel": "off",
+    "cursor.composer.collapsePaneInputBoxPills": true,
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.stickyScroll.enabled": true,
+    "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+    "diffEditor.codeLens": true,
+    "diffEditor.experimental.useTrueInlineView": true,
+    "window.autoDetectHighContrast": false,
+    "a-file-icon-vscode.arrowTheme": "plusMinus",
+    "workbench.iconTheme": "material-icon-theme",
+    "diffEditor.experimental.showMoves": true,
+    "gitlens.plusFeatures.enabled": false,
+    "gitlens.home.preview.enabled": false,
+    "git.autofetch": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "githubPullRequests.fileListLayout": "tree",
+    "githubPullRequests.pullBranch": "never",
+    "gitlens.launchpad.indicator.enabled": false,
+    "playwright.showTrace": false,
+    "playwright.reuseBrowser": true,
+    "playwright.runGlobalSetupOnEachRun": true,
+    "git.confirmNoVerifyCommit": false,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "githubPullRequests.pushBranch": "always",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "support.type.graphql"
+                ],
+                "settings": {
+                    "foreground": "#e5c07b",
+                }
+            },
+            {
+                "scope": [
+                    "support.type.graphql",
+                    "variable.graphql",
+                    "support.type.builtin.graphql"
+                ],
+                "settings": {
+                    "fontStyle": "underline"
+                }
+            },
+        ]
+    }
+}
