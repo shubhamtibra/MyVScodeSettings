@@ -45,7 +45,41 @@
     },
     "eslint.options": {
         "cache": true,
-        "cacheLocation": ".eslintCache"
+        "cacheLocation": ".eslintCache",
+        "ignorePatterns": [
+            "src/browser/icons/",
+            "src/antd/",
+            "src/stories/",
+            "src/styles/",
+            "src/browser/v2/"
+        ],
+        "baseConfig": {
+            "rules": {
+                "padding-line-between-statements": [
+                    "error",
+                    {
+                        "blankLine": "always",
+                        "prev": "*",
+                        "next": "block"
+                    },
+                    {
+                        "blankLine": "always",
+                        "prev": "block",
+                        "next": "*"
+                    },
+                    {
+                        "blankLine": "always",
+                        "prev": "*",
+                        "next": "block-like"
+                    },
+                    {
+                        "blankLine": "always",
+                        "prev": "block-like",
+                        "next": "*"
+                    }
+                ]
+            },
+        }
     },
     "sync.autoUpload": true,
     "sync.gist": "33692bb0e488cc50b072ca73547f3d43",
@@ -190,5 +224,8 @@
             },
         ]
     },
-    "a-file-icon-vscode.opacity": 1,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
 }
