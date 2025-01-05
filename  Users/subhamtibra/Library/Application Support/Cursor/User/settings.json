@@ -124,7 +124,6 @@
         "**/packages/**": true,
         "**/public/**": true,
         "**/static/**": true,
-        "**/tests/**": true
     },
     "gitlens.views.scm.grouped.views": {
         "commits": false,
