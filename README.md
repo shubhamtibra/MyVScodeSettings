@@ -19,22 +19,16 @@ This repository contains my personal VS Code/Cursor editor configuration files, 
 
 ### Development Settings
 - ESLint configuration for JavaScript/React
-- Tailwind CSS support
-- GraphQL support
-- Playwright testing configuration
+- Various Performance Optimizations
+- Improved GraphQL syntax highlighting
 - Git integration with GitLens
 
-### Code Quality & Format
-- Format on save enabled
-- ESLint auto-fix on save
-- Semicolon removal in JavaScript/TypeScript
-- Single quotes preference for JavaScript
 
 ### Performance Optimizations
 - Large file optimizations enabled
 - TypeScript server memory limit: 8096MB
 - File watcher exclusions for common build directories
-- Optimized workspace trust settings
+- Disable Semantic Highlighting
 
 ## 🧩 Notable Extensions
 
@@ -52,24 +46,6 @@ This repository contains my personal VS Code/Cursor editor configuration files, 
    - One Dark Pro
    - Material Icon Theme
    - A-File Icon
-
-4. **AI & Productivity**
-   - Cody AI
-   - AWS CodeWhisperer
-   - AWS Toolkit
-
-5. **Testing & Development**
-   - Playwright
-   - Jupyter
-   - Babel JavaScript
-
-## 🔄 Sync Settings
-
-Settings are synced using Settings Sync extension with the following configuration:
-- Auto-upload enabled
-- Auto-download enabled
-- 20-second upload delay
-- Workspace storage excluded from sync
 
 ## 💻 Terminal Configuration
 
