@@ -45,18 +45,11 @@
     },
     "eslint.options": {
         "cache": true,
-        "cacheLocation": ".eslintCache",
-        "ignorePatterns": [
-            "src/browser/icons/",
-            "src/antd/",
-            "src/stories/",
-            "src/styles/",
-            "src/browser/v2/"
-        ],
+        "cacheLocation": "dist/eslintCache",
         "baseConfig": {
             "rules": {
                 "padding-line-between-statements": [
-                    "error",
+                    "warn",
                     {
                         "blankLine": "always",
                         "prev": "*",
@@ -100,7 +93,6 @@
     "security.workspace.trust.untrustedFiles": "open",
     "eslint.format.enable": true,
     "typescript.tsserver.web.typeAcquisition.enabled": false,
-    "typescript.tsserver.experimental.useVsCodeWatcher": false,
     "typescript.tsserver.web.projectWideIntellisense.enabled": false,
     "files.participants.timeout": 6000,
     "editor.screenReaderAnnounceInlineSuggestion": false,
@@ -227,4 +219,5 @@
     "explorer.confirmDragAndDrop": false,
     "git.confirmSync": false,
     "explorer.confirmDelete": false,
+    "editor.semanticHighlighting.enabled": false,
 }
